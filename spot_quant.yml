@@ -6,15 +6,15 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.9
-  - numpy
-  - nd2reader
-  - matplotlib
-  - scikit-image
-  - stardist
-  - csbdeep
-  - tifffile
-  - pip
-  - ipykernel
+  - python=3.9.16
+  - numpy=1.23.5
+  - nd2reader=3.3.0
+  - matplotlib=3.6.2
+  - scikit-image=0.19.3
+  - stardist=0.8.3
+  - csbdeep=0.7.2
+  - tifffile=2021.7.2
+  - pip=22.3.1
+  - ipykernel=6.19.2
   - pip:
-    - opencv-python
+    - opencv-python==4.7.0.68
